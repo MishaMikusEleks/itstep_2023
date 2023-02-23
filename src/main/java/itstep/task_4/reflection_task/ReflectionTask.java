@@ -1,4 +1,4 @@
-package itstep.task_4.reflection;
+package itstep.task_4.reflection_task;
 
 import java.lang.reflect.Field;
 

@@ -1,4 +1,4 @@
-package itstep.task_4.reflection;
+package itstep.task_4.reflection_task;
 
 public class CustomClass {
     private String stringField = "stringFieldData";
