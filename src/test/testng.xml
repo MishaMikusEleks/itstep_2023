@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="all test SUITE">
+
+    <parameter name="a" value="1" />
+    <parameter name="b" value="2" />
+    <parameter name="expected" value="3" />
+
+    <test name="Calc test">
+        <packages>
+            <package name="itstep_test"/>
+        </packages>
+    </test>
+
+    <test name="Calc test with param">
+        <classes>
+            <class name="itstep_test.task_8.ParametrizedCalcTest">
+                <methods>
+                    <include name="addTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
