@@ -1,4 +1,4 @@
-package itstep.task_6.task_7;
+package itstep.task_7;
 
 import itstep.task_6.entity.Device;
 import itstep.task_6.entity.Phone;
@@ -11,7 +11,7 @@ import java.util.HashSet;
 
 import static itstep.task_6.HibernateUtil.getSessionFactory;
 
-public class HibernateMain7 {
+public class HibernateMain {
 
 //    Implement OneToOne, OneToMany, ManyToMany relations in your models from previous task. (add some additional tables if need)
 //    Test it by CRUD.
