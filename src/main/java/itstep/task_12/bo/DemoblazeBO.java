@@ -20,6 +20,7 @@ public class DemoblazeBO {
         signUpPage=homePage.signUp();
 
         //1.1 verify sign up page open
+        Thread.sleep(1000);
         Assert.assertTrue(signUpPage.isOpen());
 
         //1.2  sign up
@@ -39,7 +40,7 @@ public class DemoblazeBO {
         return UUID.randomUUID().toString().substring(0,10).replace("-","");
     }
 
-    public void checkLoginUser() throws InterruptedException {
+    public DemoblazeBO checkLoginUser() throws InterruptedException {
         String userLabel = homePage.goToLoginPage()
                 .inputLogin(login)
                 .inputPassword(pass)
@@ -47,5 +48,10 @@ public class DemoblazeBO {
                 .loginLabel();
 
         Assert.assertEquals(userLabel, "Welcome "+login," unsuccessfull login");
+        return this;
+    }
+
+    public void failTest() {
+        Assert.fail("fail on purpose");
     }
 }

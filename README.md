@@ -9,3 +9,6 @@
 
 #Task_9
 //https://docs.google.com/document/d/1EJ2K0rN59yuaFiSj3vcdVqy2iwMlINYp0mIC1--Li2Q/edit
+
+#Tasak_14
+allure serve -h localhost
