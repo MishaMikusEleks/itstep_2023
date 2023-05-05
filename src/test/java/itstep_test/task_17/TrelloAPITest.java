@@ -38,7 +38,6 @@ public class TrelloAPITest {
     private void clearOldUserData() throws IOException, URISyntaxException, InterruptedException {
         String memberId=trelloBO.getMyMemberId(trelloKey,trelloToken);
         trelloBO.deleteAllData(memberId,trelloKey,trelloToken);
-
     }
 
     private void clearOldBoards() throws IOException, URISyntaxException, InterruptedException {
@@ -53,8 +52,6 @@ public class TrelloAPITest {
                 throw new RuntimeException(e);
             }
         });
-
-
     }
 
 

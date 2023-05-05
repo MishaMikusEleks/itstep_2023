@@ -1,0 +1,9 @@
+<User>
+    <name>Misha</name>
+    <age>33</age>
+    <phoneList>
+        <phoneList>1111</phoneList>
+        <phoneList>22222</phoneList>
+        <phoneList>33333</phoneList>
+    </phoneList>
+</User>
