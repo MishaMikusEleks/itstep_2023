@@ -1,0 +1,59 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1683548801796,345,GET_host_type_25_c3f7783c-3,200,OK,Login_TG 1-1,text,true,,5921,274,2,4,http://localhost/login_page.php,271,0,48
+1683548801796,271,GET_host_type_25_c3f7783c-3-0,302,Found,Login_TG 1-1,text,true,,741,107,2,4,http://localhost/,271,0,48
+1683548802070,71,GET_host_type_25_c3f7783c-3-1,200,OK,Login_TG 1-1,text,true,,5180,167,2,4,http://localhost/login_page.php,71,0,0
+1683548802143,68,POST_login_25_c3f7783c-3,200,OK,Login_TG 1-1,text,true,,5574,297,2,4,http://localhost/login_password_page.php,68,0,0
+1683548803908,665,GET_host_type_55_f9c00656-c,200,OK,Create_Issue_TG 2-2,text,true,,5921,274,3,6,http://localhost/login_page.php,220,0,1
+1683548803908,220,GET_host_type_55_f9c00656-c-0,302,Found,Create_Issue_TG 2-2,text,true,,741,107,3,6,http://localhost/,220,0,1
+1683548804129,444,GET_host_type_55_f9c00656-c-1,200,OK,Create_Issue_TG 2-2,text,true,,5180,167,3,6,http://localhost/login_page.php,443,0,0
+1683548803908,775,GET_host_type_25_4d051b74-5,200,OK,Login_TG 1-2,text,true,,5921,274,3,6,http://localhost/login_page.php,267,0,1
+1683548803908,267,GET_host_type_25_4d051b74-5-0,302,Found,Login_TG 1-2,text,true,,741,107,3,6,http://localhost/,267,0,1
+1683548804176,507,GET_host_type_25_4d051b74-5-1,200,OK,Login_TG 1-2,text,true,,5180,167,3,6,http://localhost/login_page.php,507,0,0
+1683548804573,292,POST_login_55_f9c00656-c,200,OK,Create_Issue_TG 2-2,text,true,,5574,297,3,6,http://localhost/login_password_page.php,292,0,0
+1683548804866,1878,POST_auth_55_f9c00656-c,200,OK,Create_Issue_TG 2-2,text,false,"The operation lasted too long: It took 1,878 milliseconds, but should not have lasted longer than 1,000 milliseconds.",58272,1089,3,6,http://localhost/my_view_page.php,301,0,0
+1683548804866,301,POST_auth_55_f9c00656-c-0,302,Found,Create_Issue_TG 2-2,text,true,,1194,315,3,6,http://localhost/login.php,301,0,0
+1683548805169,535,POST_auth_55_f9c00656-c-1,302,Found,Create_Issue_TG 2-2,text,true,,667,275,3,6,http://localhost/login_cookie_test.php?return=index.php,535,0,0
+1683548805704,404,POST_auth_55_f9c00656-c-2,302,Found,Create_Issue_TG 2-2,text,true,,674,246,3,6,http://localhost/index.php,404,0,0
+1683548806109,635,POST_auth_55_f9c00656-c-3,200,OK,Create_Issue_TG 2-2,text,true,,55737,253,3,6,http://localhost/my_view_page.php,634,0,0
+1683548806747,480,GET_report_page_55_f9c00656-c,200,OK,Create_Issue_TG 2-2,text,true,,17544,256,3,6,http://localhost/bug_report_page.php,479,0,0
+1683548806748,684,GET_host_type_55_24939228-6,200,OK,Create_Issue_TG 2-3,text,true,,5921,274,3,6,http://localhost/login_page.php,224,0,1
+1683548806748,224,GET_host_type_55_24939228-6-0,302,Found,Create_Issue_TG 2-3,text,true,,741,107,3,6,http://localhost/,224,0,1
+1683548806973,459,GET_host_type_55_24939228-6-1,200,OK,Create_Issue_TG 2-3,text,true,,5180,167,3,6,http://localhost/login_page.php,459,0,0
+1683548807238,319,POST_issue_55_f9c00656-c,200,OK,Create_Issue_TG 2-2,text,true,,9011,644,3,6,http://localhost/bug_report.php,319,0,0
+1683548807562,435,GET_host_type_25_c3f7783c-3,200,OK,Create_Issue_TG 2-2,text,true,,56414,490,3,6,http://localhost/my_view_page.php,154,0,0
+1683548807562,154,GET_host_type_25_c3f7783c-3-0,302,Found,Create_Issue_TG 2-2,text,true,,674,237,3,6,http://localhost/,154,0,0
+1683548807716,281,GET_host_type_25_c3f7783c-3-1,200,OK,Create_Issue_TG 2-2,text,true,,55740,253,3,6,http://localhost/my_view_page.php,277,0,0
+1683548808320,232,GET_host_type_25_fa15fd3e-8,200,OK,Login_TG 1-3,text,true,,5921,274,3,6,http://localhost/login_page.php,127,0,1
+1683548808320,127,GET_host_type_25_fa15fd3e-8-0,302,Found,Login_TG 1-3,text,true,,741,107,3,6,http://localhost/,127,0,1
+1683548808447,105,GET_host_type_25_fa15fd3e-8-1,200,OK,Login_TG 1-3,text,true,,5180,167,3,6,http://localhost/login_page.php,105,0,0
+1683548808552,83,POST_login_25_fa15fd3e-8,200,OK,Login_TG 1-3,text,true,,5574,297,3,6,http://localhost/login_password_page.php,83,0,0
+1683548810070,219,POST_login_55_24939228-6,200,OK,Create_Issue_TG 2-3,text,true,,5574,297,3,6,http://localhost/login_password_page.php,219,0,0
+1683548810766,370,GET_host_type_55_f28f90c0-d,200,OK,Create_Issue_TG 2-1,text,true,,5921,274,3,6,http://localhost/login_page.php,198,0,2
+1683548810766,198,GET_host_type_55_f28f90c0-d-0,302,Found,Create_Issue_TG 2-1,text,true,,741,107,3,6,http://localhost/,198,0,2
+1683548810964,172,GET_host_type_55_f28f90c0-d-1,200,OK,Create_Issue_TG 2-1,text,true,,5180,167,3,6,http://localhost/login_page.php,171,0,0
+1683548811136,134,POST_login_55_f28f90c0-d,200,OK,Create_Issue_TG 2-1,text,true,,5574,297,3,6,http://localhost/login_password_page.php,134,0,0
+1683548810997,852,POST_auth_25_c3f7783c-3,200,OK,Login_TG 1-1,text,true,,53449,1173,3,6,http://localhost/my_view_page.php,168,0,5
+1683548810997,168,POST_auth_25_c3f7783c-3-0,302,Found,Login_TG 1-1,text,true,,1223,315,3,6,http://localhost/login.php,168,0,5
+1683548811165,123,POST_auth_25_c3f7783c-3-1,302,Found,Login_TG 1-1,text,true,,667,303,3,6,http://localhost/login_cookie_test.php?return=index.php,123,0,0
+1683548811289,167,POST_auth_25_c3f7783c-3-2,302,Found,Login_TG 1-1,text,true,,674,274,3,6,http://localhost/index.php,167,0,0
+1683548811458,391,POST_auth_25_c3f7783c-3-3,200,OK,Login_TG 1-1,text,true,,50885,281,3,6,http://localhost/my_view_page.php,390,0,0
+1683548813876,221,POST_login_25_4d051b74-5,200,OK,Login_TG 1-2,text,true,,5575,297,2,5,http://localhost/login_password_page.php,221,0,2
+1683548812702,1690,POST_auth_55_24939228-6,200,OK,Create_Issue_TG 2-3,text,false,"The operation lasted too long: It took 1,690 milliseconds, but should not have lasted longer than 1,000 milliseconds.",58279,1089,3,4,http://localhost/my_view_page.php,288,0,0
+1683548812702,288,POST_auth_55_24939228-6-0,302,Found,Create_Issue_TG 2-3,text,true,,1194,315,3,4,http://localhost/login.php,288,0,0
+1683548812990,679,POST_auth_55_24939228-6-1,302,Found,Create_Issue_TG 2-3,text,true,,667,275,3,4,http://localhost/login_cookie_test.php?return=index.php,679,0,0
+1683548813669,198,POST_auth_55_24939228-6-2,302,Found,Create_Issue_TG 2-3,text,true,,674,246,3,4,http://localhost/index.php,198,0,0
+1683548813867,525,POST_auth_55_24939228-6-3,200,OK,Create_Issue_TG 2-3,text,true,,55744,253,3,4,http://localhost/my_view_page.php,523,0,0
+1683548812702,1726,POST_auth_25_fa15fd3e-8,200,OK,Login_TG 1-3,text,false,"The operation lasted too long: It took 1,726 milliseconds, but should not have lasted longer than 1,000 milliseconds.",53428,1089,1,3,http://localhost/my_view_page.php,476,0,0
+1683548812702,477,POST_auth_25_fa15fd3e-8-0,302,Found,Login_TG 1-3,text,true,,1194,315,1,3,http://localhost/login.php,476,0,0
+1683548813181,546,POST_auth_25_fa15fd3e-8-1,302,Found,Login_TG 1-3,text,true,,667,275,1,3,http://localhost/login_cookie_test.php?return=index.php,546,0,0
+1683548813731,192,POST_auth_25_fa15fd3e-8-2,302,Found,Login_TG 1-3,text,true,,674,246,1,3,http://localhost/index.php,191,0,0
+1683548813924,504,POST_auth_25_fa15fd3e-8-3,200,OK,Login_TG 1-3,text,true,,50893,253,1,3,http://localhost/my_view_page.php,503,0,0
+1683548813277,1327,POST_auth_55_f28f90c0-d,200,OK,Create_Issue_TG 2-1,text,false,"The operation lasted too long: It took 1,327 milliseconds, but should not have lasted longer than 1,000 milliseconds.",58276,1089,2,2,http://localhost/my_view_page.php,420,0,0
+1683548813277,420,POST_auth_55_f28f90c0-d-0,302,Found,Create_Issue_TG 2-1,text,true,,1194,315,2,2,http://localhost/login.php,420,0,0
+1683548813698,188,POST_auth_55_f28f90c0-d-1,302,Found,Create_Issue_TG 2-1,text,true,,667,275,2,2,http://localhost/login_cookie_test.php?return=index.php,188,0,0
+1683548813886,285,POST_auth_55_f28f90c0-d-2,302,Found,Create_Issue_TG 2-1,text,true,,674,246,2,2,http://localhost/index.php,285,0,0
+1683548814172,432,POST_auth_55_f28f90c0-d-3,200,OK,Create_Issue_TG 2-1,text,true,,55741,253,2,2,http://localhost/my_view_page.php,431,0,0
+1683548813877,836,POST_login_25_c3f7783c-3,200,OK,Create_Issue_TG 2-2,text,true,,62014,880,1,1,http://localhost/my_view_page.php,228,0,2
+1683548813877,228,POST_login_25_c3f7783c-3-0,302,Found,Create_Issue_TG 2-2,text,true,,5599,381,1,1,http://localhost/login_password_page.php,228,0,2
+1683548814106,313,POST_login_25_c3f7783c-3-1,302,Found,Create_Issue_TG 2-2,text,true,,674,246,1,1,http://localhost/index.php,313,0,0
+1683548814419,294,POST_login_25_c3f7783c-3-2,200,OK,Create_Issue_TG 2-2,text,true,,55741,253,1,1,http://localhost/my_view_page.php,293,0,0

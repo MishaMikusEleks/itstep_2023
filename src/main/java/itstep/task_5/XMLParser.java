@@ -1,6 +1,5 @@
 package itstep.task_5;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 import java.io.File;

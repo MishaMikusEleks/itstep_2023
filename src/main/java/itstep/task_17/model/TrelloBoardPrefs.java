@@ -1,7 +1,8 @@
 package itstep.task_17.model;
 
-import java.util.List;
 import lombok.Data;
+
+import java.util.List;
 
 @Data
 public class TrelloBoardPrefs {

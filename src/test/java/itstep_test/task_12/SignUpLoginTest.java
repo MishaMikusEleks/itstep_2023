@@ -1,8 +1,7 @@
 package itstep_test.task_12;
 
-import itstep.task_12.bo.DemoblazeBO;
 import itstep.task_12.WebDriverSupplier;
-
+import itstep.task_12.bo.DemoblazeBO;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

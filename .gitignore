@@ -1,4 +1,5 @@
-/.idea/
 /allure-results/
 /driver/
 /target/
+/performance/report/
+/.idea/
