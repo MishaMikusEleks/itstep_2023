@@ -1,8 +1,6 @@
 package itstep_test.task_10;
 
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
-import itstep.task_2.Calc;
-import itstep.task_3.CalcException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

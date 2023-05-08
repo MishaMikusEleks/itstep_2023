@@ -2,17 +2,12 @@ package itstep_test.task_11;
 
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import itstep.task_11.bo.DemoblazeBO;
-import itstep.task_11.po.HomePage;
-import itstep.task_11.po.SignUpPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import java.util.UUID;
 
 public class EndToEndTest {
 

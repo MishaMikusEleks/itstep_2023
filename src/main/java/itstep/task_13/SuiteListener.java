@@ -1,10 +1,9 @@
 package itstep.task_13;
 
 import org.apache.log4j.Logger;
-import org.testng.*;
-import org.testng.xml.XmlSuite;
-
-import java.util.List;
+import org.testng.IExecutionListener;
+import org.testng.ISuite;
+import org.testng.ISuiteListener;
 
 
 public class SuiteListener implements ISuiteListener, IExecutionListener {

@@ -17,8 +17,6 @@ import java.net.URISyntaxException;
 import java.util.Properties;
 import java.util.UUID;
 
-import static io.restassured.RestAssured.given;
-
 @Listeners({AllureListener.class})
 public class TrelloAPITest {
     TrelloBO trelloBO=new TrelloBO();

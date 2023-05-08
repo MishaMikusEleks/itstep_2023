@@ -6,8 +6,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import java.io.*;
-import java.net.MalformedURLException;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.http.HttpClient;

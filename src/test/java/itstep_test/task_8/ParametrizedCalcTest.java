@@ -1,7 +1,6 @@
 package itstep_test.task_8;
 
 import itstep.task_2.Calc;
-import itstep.task_3.CalcException;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

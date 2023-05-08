@@ -1,7 +1,6 @@
 package itstep.task_5;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.json.JSONObject;
 
 import java.io.File;
