@@ -24,7 +24,6 @@ import static org.hamcrest.Matchers.equalTo;
 @Listeners({AllureListener.class})
 public class TrelloAPITest {
 
-
     Properties properties=new Properties();
     String trelloKey;
     String trelloToken;
